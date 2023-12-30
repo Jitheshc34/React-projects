@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.common {
+  margin-left: 20px;
+}
+
+body {
+  font-family: Verdana;
+}
+
+.container {
+  background-color: lightgreen;
+  height: 100%;
+  padding-bottom: 60px;
+}
+
+.container h1 {
+  text-align: center;
+  padding: 20px 0 40px 0;
+}
+
+.wrapper {
+  margin-left: 400px;
+  margin-right: 300px;
+  /* max-width: 500px; */
+  /* margin: 50px auto; */
+  padding: 30px 20px;
+  background-color: white;
+  height: 120vh;
+}
+
+.labelandinput {
+  display: flex;
+  padding-top: 20px;
+}
+
+.labelclass {
+  margin-right: 20px;
+}
+
+#fname {
+  margin-right: 20px;
+}
+
+.labelemailage {
+  display: flex;
+}
+
+.labelemailage {
+  display: flex;
+}
+
+#email {
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.ageclass {
+  margin-right: 60px;
+}
+
+.dropdown {
+  margin-top: 40px;
+}
+.dropdownlabelclass {
+  margin-right: 145px;
+}
+
+.radiobuttonclass {
+  margin-top: 40px;
+}
+
+#Yes {
+  margin-top: 10px;
+  margin-left: 25px;
+}
+#No {
+  margin-left: 25px;
+}
+
+#Maybe {
+  margin-left: 25px;
+}
+
+.checkboxclass {
+  margin-top: 40px;
+}
+
+#Java {
+  margin-top: 10px;
+  margin-left: 25px;
+}
+#COBOL {
+  margin-left: 25px;
+}
+
+#Python {
+  margin-left: 25px;
+}
+.commentsboxclass {
+  margin-top: 40px;
+}
+
+#cmmt {
+  margin-top: 10px;
+  margin-left: 25px;
+  border: 1px solid #777;
+  border-radius: 2px;
+  font-family: inherit;
+
+  display: block;
+}
+
+.buttonclass {
+  margin-left: 25px;
+  width: 605px;
+  height: 30px;
+  border: 1px solid #777;
+  border-radius: 2px;
+  font-size: 21px;
+  transition: background-color 0.2s ease-in;
+}
+
+.buttonclass:hover {
+  background-color: lightgreen;
+}
