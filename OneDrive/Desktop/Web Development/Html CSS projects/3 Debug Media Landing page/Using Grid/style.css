@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.Container {
+  max-width: 100%;
+  background-color: lightblue;
+  display: grid;
+  height: 70vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 3fr 3fr;
+  grid-template-areas:
+    "Logo    HomeAboutContact    HomeAboutContact"
+    "Contentsection    Contentsection    Formsection"
+    "gallary-list  gallary-list  gallary-list";
+}
+
+.Container .Logo {
+  grid-area: Logo;
+  background-color: cornflowerblue;
+  font-size: 20px;
+  font-family: Verdana;
+  height: 70px;
+  padding-left: 160px;
+  padding-top: 15px;
+}
+
+.Container .HomeAboutContact {
+  grid-area: HomeAboutContact;
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+  font-family: Verdana;
+  font-size: 20px;
+  height: 70px;
+}
+
+.Container .HomeAboutContact li {
+  padding: 20px;
+  margin-left: 50px;
+}
+
+.Contentsection {
+  grid-area: Contentsection;
+  padding-left: 160px;
+  margin-right: 400px;
+}
+
+.Contentsection h1 {
+  padding-top: 30px;
+}
+
+.Contentsection p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.button {
+  border: none;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.Formsection {
+  grid-area: Formsection;
+  max-width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 30px;
+  margin-right: 300px;
+}
+
+.form-control {
+  margin-bottom: 30px;
+  list-style: none;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 1px dotted black;
+}
+
+.button2 {
+  background-color: aqua;
+  padding: 10px 60px;
+}
+
+.Gallery {
+  background-color: white;
+}
+
+.gallary-list {
+  /* height: 100vh; */
+  grid-area: gallary-list;
+  max-width: 1130px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallary-list li {
+  flex: 1 1 calc(100% / 3 - 40px / 3);
+  margin-top: 10px;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.gallary-list li img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.picture-name {
+  text-align: center;
+}
+
+.footer h3 {
+  padding-top: 10px;
+  text-align: center;
+}
