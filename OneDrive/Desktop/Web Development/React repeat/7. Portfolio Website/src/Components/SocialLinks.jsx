@@ -12,7 +12,7 @@ const links = [
             LinkedIn <FaLinkedin size={30}/>
             </>
         ),
-        href: "https://linkedin.com",
+        href: "https://linkedin.com/in/jithesh-narayanan-a49449222",
         style: "rounded-tr-md"
     },
     {id : 2,
@@ -23,21 +23,21 @@ const links = [
         ),
         href: "https://github.com/jitheshc34",
     },
-    {id : 3,
-        child: (
-            <>
-            Mail <HiOutlineMail size={30}/>
-            </>
-        ),
-        href: "mailto:jitheshc34@gmail.com",
-    },
+    // {id : 3,
+    //     child: (
+    //         <>
+    //         Mail <HiOutlineMail size={30}/>
+    //         </>
+    //     ),
+    //     href: "mailto:jitheshc34@gmail.com",
+    // },
     {id : 4,
         child: (
             <>
             Resume <BsFillPersonLinesFill size={30}/>
             </>
         ),
-        href: "/resume.docx",
+        href: "/Jithesh Narayanan.docx",
         style: "rounded-br-md",
         download: true,
     },

@@ -9,8 +9,9 @@ const Home = () => {
       
         <div className='max-w-screen-lg mx-auto flex flex-col md:flex-row justify-center items-center'>
           <div className='text-white px-4'>
-            <h2 className='mt-20 md:mt-40 text-2xl font-bold md:text-5xl py-4'>I'm a full stack developer</h2>
-            <p className='pb-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium cum repellat id perferendis, architecto, laboriosam impedit rem aut eveniet esse pariatur, quam debitis! Veritatis, quae facilis perferendis provident officia velit!
+            <h2 className='mt-20 md:mt-40 text-2xl font-bold md:text-5xl py-4'>Mainframe Tech Lead</h2>
+            <p className='pb-4'>
+               Software professional with 18+ years of IT experience in IBM Mainframe based application development including 6+ years in client facing onsite technical lead role.
             </p>
             
             <Link to="portfolio" smooth duration={500} className='bg-gradient-to-r from-cyan-500 to-blue-500 px-6 py-2 mb-4 rounded-md font-bold cursor-pointer group'>
@@ -20,7 +21,7 @@ const Home = () => {
             
           </div>
           
-              <img className='md:mt-40  mx-auto w-[50%] md:w-1/4 rounded-2xl' src={heroimage} alt="my profile" />
+              <img className='mt-20 md:mt-40  mx-auto w-[50%] md:w-1/4 rounded-2xl' src={heroimage} alt="my profile" />
         
         </div>
         
